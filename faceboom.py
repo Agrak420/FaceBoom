@@ -104,13 +104,13 @@ class FaceBoom(object):
 
         proxystatus = gr+self.useProxy+wi+"["+gr+"ON"+wi+"]" if self.useProxy  else yl+"["+rd+"OFF"+yl+"]"
         print(gr+"""
-==================================
+=============================================================
 [---]        """+wi+"""Vendeta Uragon 2021 """+gr+"""        [---]
-==================================
+=============================================================
 [---]  """+wi+"""BruteForce Facebook Attack 2021  """+gr+""" [---]
-==================================
-[---]         """+yl+"""CONFIG"""+gr+"""         [---]
-==================================
+=============================================================
+[---]              """+yl+"""BANATAN MO!"""+gr+"""           [---]
+=============================================================
 [>] Target      :> """+wi+target+gr+"""
 {}""".format("[>] Wordlist    :> "+yl+str(wordlist) if not single_passwd else "[>] Password    :> "+yl+str(single_passwd))+gr+"""
 [>] ProxyStatus :> """+str(proxystatus)+wi)
