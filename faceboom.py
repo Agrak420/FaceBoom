@@ -105,9 +105,9 @@ class FaceBoom(object):
         proxystatus = gr+self.useProxy+wi+"["+gr+"ON"+wi+"]" if self.useProxy  else yl+"["+rd+"OFF"+yl+"]"
         print(gr+"""
 ==================================
-[---]        """+wi+"""FaceBoom"""+gr+"""        [---]
+[---]        """+wi+"""Vendeta Uragon 2021 """+gr+"""        [---]
 ==================================
-[---]  """+wi+"""BruteForce Facebook  """+gr+""" [---]
+[---]  """+wi+"""BruteForce Facebook Attack 2021  """+gr+""" [---]
 ==================================
 [---]         """+yl+"""CONFIG"""+gr+"""         [---]
 ==================================
